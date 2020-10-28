@@ -17,3 +17,24 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+| endpoint        | method   | Description                                                              |
+| --------------- | -------- | ------------------------------------------------------------------------ |
+| `/customer`     | `POST`   | Create a new customer.                                                   |
+| `/customer`     | `GET`    | Access the customer database.                                            |
+| `/customer/:id` | `GET`    | Access a specific customer in the database through its ID.               |
+| `/customer/:id` | `PUT`    | Modify an entire specific customer through its ID.                       |
+| `/customer/:id` | `PATCH`  | Modify a part of a specific customer through its ID.                     |
+| `/customer/:id` | `DELETE` | Delete a specific customer through its ID.                               |
+| `/product`      | `POST`   | Create a new product.                                                    |
+| `/product`      | `GET`    | Access the product database.                                             |
+| `/product/:id`  | `GET`    | Access a specific product in the database through its ID.                |
+| `/product/:id`  | `PUT`    | Modify an entire specific product through its ID. Including the stock.   |
+| `/product/:id`  | `PATCH`  | Modify a part of a specific product through its ID. Including the stock. |
+| `/product/:id`  | `DELETE` | Delete a specific product through its ID.                                |
+| `/seating`      | `POST`   | Create a new seating option.                                             |
+| `/seating`      | `GET`    | Access the seating database.                                             |
+| `/seating/:id`  | `GET`    | Access a specific seating option in the database through its ID.         |
+| `/seating/:id`  | `PUT`    | Modify an entire specific seating option through its ID.                 |
+| `/seating/:id`  | `PATCH`  | Modify a part of a specific seating option through its ID.               |
+| `/seating/:id`  | `DELETE` | Delete a specific seating option through its ID.                         |
